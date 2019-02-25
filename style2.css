@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image: url(pic1.jpg);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.leftmenus
+{
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.leftmenus li
+{
+    display: inline-block;
+}
+
+.leftmenus li a
+{
+    color: aqua;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.rightmenus 
+{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.rightmenus li
+{
+    display: inline-block;
+}
+
+.rightmenus li a
+{
+    color: aqua;
+    text-decoration: none;
+    padding: 5px 30px;
+    
+}
+
+.leftmenus li:hover
+{
+    border: 2px solid white;
+    background-color: orange;
+    transition: all 0.5s ease-in;
+}
+.rightmenus li:hover
+{
+    border: 1px solid white;
+    background-color: orange;
+    transition: all 0.5s ease-in;
+}
+
+.logo img
+{
+    margin-top: 250px;
+    margin-left: 300px;
+    width: 150px;
+    position: absolute;
+    border: 10px solid green;
+}
+
+
+.logoline
+{
+
+    margin-left: 600px;
+    position: absolute;
+}
+
+
+h1
+{
+    font-size: 50px;
+    color: yellow;
+    margin-top: 500px;
+}
+h2
+{
+    font-size: 25px;
+    color: blue;
+    margin-top: 0px;
+    margin-left: 100px;
+    
+}
+
+.codingpic
+{
+      margin-top: 0px;
+    margin-left: 300px;
+    position: relative;
+}
+
+h3
+{
+    font-size: 20px;
+    color: black;
+    
+}
+p
+{
+    font-size: 20px;
+}

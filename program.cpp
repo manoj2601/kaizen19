@@ -45,3 +45,8 @@ int main()
    vector <int>v3; v3.push_back(1); v3.push_back(8);
    vector <int>v4; v4.push_back(7); v4.push_back(3);
    vector <int>v5; v5.push_back(0); v5.push_back(11);
+ 
+ map <int , string > name ;
+ name[1]= "hospital_1";name[2]= "hospital_2";name[3]= "hospital_3";name[4]= "hospital_4";name[5]= "hospital_5";
+map <int, vector <int> > mass;
+   mass[1]=v1;  mass[2]=v2; mass[3]=v3; mass[4]=v4; mass[5]=v5;

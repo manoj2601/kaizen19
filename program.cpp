@@ -50,3 +50,6 @@ int main()
  name[1]= "hospital_1";name[2]= "hospital_2";name[3]= "hospital_3";name[4]= "hospital_4";name[5]= "hospital_5";
 map <int, vector <int> > mass;
    mass[1]=v1;  mass[2]=v2; mass[3]=v3; mass[4]=v4; mass[5]=v5;
+ 
+ map <int, vector <int> > masst;
+   masst[1]=v1t;  mass[2]=v2t; mass[3]=v3t; mass[4]=v4t; mass[5]=v5t;

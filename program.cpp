@@ -69,3 +69,24 @@ map <int, vector <int> > mass;
         }
         rt++;
     }
+
+ vector <int >  disto;
+for (int t = 0; t < vel.size (); t++ )
+{
+    int u = vel[t] ;
+    vector <int> happy =mass[u];
+    
+    int dx = v[0]-happy[0];
+    if(dx<0)
+    {
+        dx=-dx;
+    }
+    int dy = v[1]-happy[1];
+    if(dy<0)
+    {
+        dy=-dy;
+    }
+    int distance = dx*dx+dy*dy;
+    disto.push_back(distance);
+}
+}

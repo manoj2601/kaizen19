@@ -90,3 +90,40 @@ for (int t = 0; t < vel.size (); t++ )
     disto.push_back(distance);
 }
 }
+
+int size1=disto.size();
+  int a[size1];
+  for(int t1=0;t1<size1;t1++)
+  {
+      a[t1]=disto[t1];
+  }
+  sort(a, a + size1);
+    int minhos=0,x2=0;
+  int u2=a[0];
+  for(int i1=0;i1<disto.size();i1++)
+  {
+      if(u2==disto[i1])
+      {
+          minhos=vel[i1];
+          break;
+      }
+  }
+  
+  string hos_name;
+  for(pair <int, string> prob1:name)
+    { 
+        
+        int word1 = prob1.first;
+        
+        if(word1==minhos)
+        {
+            hos_name=prob1.second;
+        }
+    }
+    cout<<"minhos ="<<minhos<<endl;
+    
+    cout<<"The nearest hospital is "<<hos_name<<endl;
+    
+  return 0;
+
+}

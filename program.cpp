@@ -51,3 +51,21 @@ int main()
 map <int, vector <int> > mass;
    mass[1]=v1;  mass[2]=v2; mass[3]=v3; mass[4]=v4; mass[5]=v5;
  
+  vector <int> vel; 
+ int rt=1;
+
+    
+    for(pair <string, string> prob:hos_op)
+    { 
+        string word;
+        string name = prob.first;
+        string available = hos_op[name]; istringstream ooh(available);
+        while (ooh>>word)
+        {
+             if (word == problem)
+            {
+                 vel.push_back(rt);
+            }
+        }
+        rt++;
+    }

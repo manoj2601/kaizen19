@@ -3,7 +3,7 @@
 #include <sstream>
 #include <vector>
 #include <string>
-
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -35,10 +35,10 @@ int main()
     hos_op["hospital_5"]= "eye opd ear stomach bone skin";
 
     vector <int> v1t; v1t.push_back(700); v1t.push_back(2200);
-   vector <int>v2t; v2t.push_back(0); v2t.push_back(0);
+   vector <int>v2t; v2t.push_back(0); v2t.push_back(2359);
    vector <int>v3t; v3t.push_back(430); v3t.push_back(2330);
    vector <int>v4t; v4t.push_back(600); v4t.push_back(450);
-   vector <int>v5t; v5t.push_back(0); v5t.push_back(0);
+   vector <int>v5t; v5t.push_back(2359); v5t.push_back(0);
 
    vector <int>v1; v1.push_back(5); v1.push_back(6);
    vector <int>v2;v2.push_back(2); v2.push_back(0); v2.push_back(0);
@@ -51,5 +51,3 @@ int main()
 map <int, vector <int> > mass;
    mass[1]=v1;  mass[2]=v2; mass[3]=v3; mass[4]=v4; mass[5]=v5;
  
- map <int, vector <int> > masst;
-   masst[1]=v1t;  mass[2]=v2t; mass[3]=v3t; mass[4]=v4t; mass[5]=v5t;

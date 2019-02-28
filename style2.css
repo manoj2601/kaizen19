@@ -95,7 +95,7 @@ h1
 }
 h2
 {
-    font-size: 25px;
+    font-size: 40px;
     color: blue;
     margin-top: 0px;
     margin-left: 100px;
@@ -111,11 +111,11 @@ h2
 
 h3
 {
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     
 }
 p
 {
-    font-size: 20px;
+    font-size: 30px;
 }

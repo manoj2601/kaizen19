@@ -7,3 +7,6 @@ Whenever we are far from home and fall ill, we face the general problem many tim
 1. Either we can make an website on which we can find the list of all hospitals nearby us and the list of the doctors of that hospitals with their availability and mobile no., first aid kit material details, daily routine health tips and medical stores nearby us.
 2. Or we can make an app which gives us the whole information which is mentioned above.
 3. A program which measure the minimum distance between you and the nearby hospital, also suggest the estimated time and the name of the doctor who is present there on that time.
+
+## website
+https://manoj2601.github.io/
